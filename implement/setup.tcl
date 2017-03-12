@@ -12,7 +12,7 @@ tclapp::install ultrafast -quiet
 read_verilog -sv [glob ../source/lfsr.v]
 read_verilog -sv [glob ../source/poly_lfsr.v]
 
-read_xdc ../../source/top.xdc
+read_xdc ../source/top.xdc
 
 close_project
 

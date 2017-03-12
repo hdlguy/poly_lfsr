@@ -1,7 +1,7 @@
 //
 module poly_lfsr #(
-    parameter WIDTH = 16,
-    parameter POLY  = 4
+    parameter WIDTH = 32,
+    parameter POLY  = 8
 )(
     input logic clk,
     input logic reset,
